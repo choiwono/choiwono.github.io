@@ -2,7 +2,7 @@
 layout: post
 title:  "[알고리즘] 선택정렬"
 date:   2018-12-04
-excerpt: "선택정렬, hello-coding 알고리즘"
+excerpt: "선택정렬, hello-coding 알고리즘, 재귀정렬"
 algo: true
 tag:
 - 알고리즘
