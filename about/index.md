@@ -12,7 +12,7 @@ comments: false
 * 이름 : 최원오
 * 나이 : 만 27세
 * 생일 : 90년 12월 20일
-* 이메일 : treasure_b@naver.com
+* 이메일 : treasureb1220@gmail.com
 * github : <a href="http://choiwono.github.io"><b>깃허브 주소</b></a>
 * skills : PHP, JAVA, CI, SPRING, MSSQL, MYSQL, JQUERY, AJAX, JAVASCRIPT, CSS, HTML
 * 개발환경 : LINUX, CENTOS 
@@ -30,10 +30,9 @@ comments: false
 
 ## 기타 자격사항
 * 정보처리기사 자격증 취득
-* sqld 자격증 취득
-* aws associate 자격증 
-* 토익 
-* jlpt
+* sqld 자격증 취득 (결과대기)
+* aws associate 자격증 ( 공부중 )
+
 <hr>
 
 ## 프로젝트
