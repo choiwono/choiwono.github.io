@@ -3,6 +3,13 @@ layout: default
 page_title: Search
 permalink: /search/
 ---
+<head>
+  {% include head.html %}
+</head>
+<body>
+{% include nav.html %}
+<!-- Header -->
+<header class="header flex" role="banner">
 <div id="results">
   <h1><!-- `key` listing for `value` --></h1>
 
@@ -33,3 +40,7 @@ permalink: /search/
         exclude: ['Welcome']
       })
 </script>
+    </header>
+    {% include scripts.html %}
+</body>
+</html>
