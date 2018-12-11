@@ -36,6 +36,8 @@ comments: true
 
 8) 정렬이 끝날때까지 반복!
 
+9) <https://www.youtube.com/watch?v=7BDzle2n47c> 영상참조
+
 ```java
 
 public class QuickSort {
