@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[자바] 2018-12-14"
-date:   2018-12-13
+date:   2018-12-14
 excerpt: "java"
 java: true
 tag:
@@ -44,3 +44,4 @@ Spring Boot (1주)
 ## 2. 주말숙제
 
 MySQL Database 설치, SQL 공부
+
