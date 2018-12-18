@@ -14,7 +14,7 @@ comments: true
 
 ## 1. JSON
 
-JSON(제이슨[1], JavaScript Object Notation)은 속성-값 쌍 또는 "키-값 쌍"으로 이루어진 데이터 오브젝트를 전달하기 위해 
+JSON(제이슨, JavaScript Object Notation)은 속성-값 쌍 또는 "키-값 쌍"으로 이루어진 데이터 오브젝트를 전달하기 위해 
 
 인간이 읽을 수 있는 텍스트를 사용하는 개방형 표준 포맷이다. 비동기 브라우저/서버 통신 (AJAX)을 위해, 넓게는 XML(AJAX가 사용)
 
@@ -112,4 +112,8 @@ public class UrlExam {
 
 각각 클래스별, 메소드별 예외처리가 발생할 수 있다. 그렇기 때문에 공통 Exception 처리를 할수있다.
 
+## 3. 금주목표
+
+reactJS - 프로그래머스 강좌 완료!!
+reactJS - SPA 페이지 만들기 ( 최종목표 )
 
