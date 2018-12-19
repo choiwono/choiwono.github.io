@@ -35,13 +35,14 @@ body {
 }
 .header {
 	//height: 100%;
-	position: relative;
+	position: fixed;
 	width: 100%;
 	min-height: 60px;
 	text-align: left;
 	background:#fff;
 	color: $white;
 	box-shadow: 2px 2px 2px #aaa;
+
 	@media #{$small} {
 		display: block !important;
 	}
