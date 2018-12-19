@@ -43,7 +43,7 @@ body {
 	background:#fff;
 	color: $white;
 	box-shadow: 2px 2px 2px #aaa;
-
+	z-index:9999;
 	@media #{$small} {
 		display: block !important;
 	}
