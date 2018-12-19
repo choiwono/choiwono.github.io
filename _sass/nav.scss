@@ -1,8 +1,8 @@
 .dl-menuwrapper {
 	width: 100%;
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: 5;
+	left: 15;
 	z-index: 1000;
 	-webkit-perspective: 1000px;
 	-moz-perspective: 1000px;
@@ -13,8 +13,8 @@
 	@media #{$notsmall} {
 		position: fixed;
 		max-width: 175px;
-		top: 25px;
-		left: 25px;
+		top: 5px;
+		left: 15px;
 	}
 	button {
 		top: 0;
