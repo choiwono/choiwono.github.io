@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[자바] 2018-12-14"
-date:   2018-12-14
+date:   2018-12-14 16:00:00
 excerpt: "java"
 java: true
 tag:
