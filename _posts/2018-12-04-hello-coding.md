@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[알고리즘] 이진탐색"
-date:   2018-12-04
+date:   2018-12-04 10:00:00
 excerpt: "알고리즘 공부, hello-coding 알고리즘"
 algo: true
 tag:

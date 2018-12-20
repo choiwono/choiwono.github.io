@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "자바 설치방법"
-date:   2018-12-03
+date:   2018-12-03 10:30:00
 excerpt: "자바 설치방법"
 java: true
 tag:

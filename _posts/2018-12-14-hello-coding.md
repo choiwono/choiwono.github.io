@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[알고리즘] 큐"
-date:   2018-12-12
+date:   2018-12-12 12:00:00
 excerpt: "큐,알고리즘"
 algo: true
 tag:
