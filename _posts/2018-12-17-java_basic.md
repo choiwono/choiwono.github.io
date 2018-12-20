@@ -112,7 +112,7 @@ public class UrlExam {
 
 각각 클래스별, 메소드별 예외처리가 발생할 수 있다. 그렇기 때문에 공통 Exception 처리를 할수있다.
 
-## 3. 금주목표
+## 3. 목표
 
 reactJS - 프로그래머스 강좌 완료!!
 reactJS - SPA 페이지 만들기 ( 최종목표 )
