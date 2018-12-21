@@ -56,7 +56,6 @@
 	}
 	ul {
 		//padding: 0;
-		margin:0px;
 		list-style: none;
 		-webkit-transform-style: preserve-3d;
 		-moz-transform-style: preserve-3d;
@@ -364,6 +363,7 @@ All this is done for any sub-level being entered.
 .dl-menuwrapper button.dl-active,
 .dl-menuwrapper ul {
 	background: $white;
+	margin:0px;
 }
 // Fix for IE
 .dl-menu li {
