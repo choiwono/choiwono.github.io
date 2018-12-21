@@ -1,8 +1,8 @@
 .dl-menuwrapper {
 	width: 100%;
-	position: absolute;
-	top: 5;
-	left: 15;
+	//position: absolute;
+	//top: 5;
+	//left: 15;
 	z-index: 1000;
 	-webkit-perspective: 1000px;
 	-moz-perspective: 1000px;
@@ -90,7 +90,7 @@
 			@include font-rem(14);
 			line-height: 20px;
 			font-weight: 400;
-			color: $white;
+			//color: $white;
 			outline: none;
 			text-decoration: none;
 		}
