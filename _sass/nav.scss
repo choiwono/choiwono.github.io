@@ -56,6 +56,11 @@
 	}
 	.dropdown-content {
 		display: none;
+		float:left;
+		overflow:hidden;
+	}
+	#dropdown-btn:hover .dropdown-content{
+		display: block;
 	}
 	ul {
 		//padding: 0;
