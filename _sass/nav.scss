@@ -55,7 +55,7 @@
 		display: none;
 	}
 	.dropdown-content {
-		//display: none;
+		display: none;
 		float:left;
 		overflow:hidden;
 		position:absolute;
@@ -67,12 +67,14 @@
 		padding:0px;
 	}
 	.dropdown-content li {
-		min-width:83px;
+		text-align:center;
+		min-width:85px;
 		border-right:none;
 		border-bottom:1px solid #ddd;
 	}
 	.dropdown-content li a {
 		font-size:10px;
+		font-weight:bold;
 	}
 	.dropdown-btn:hover .dropdown-content{
 		display: block;
