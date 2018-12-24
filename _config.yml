@@ -63,6 +63,7 @@ instagram:          treasure_b
 #hackernews:        username
 
 # Gems
+paginate: 10
 gems:
   - jekyll-mentions
   - jekyll-feed
