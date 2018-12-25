@@ -62,8 +62,9 @@ instagram:          treasure_b
 #xmpp:              username@server.com
 #hackernews:        username
 
-# Gems
 paginate: 10
+paginate_path: "/posts/:num/"
+# Gems
 gems:
   - jekyll-mentions
   - jekyll-feed
