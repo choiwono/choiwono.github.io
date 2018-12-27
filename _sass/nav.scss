@@ -1,9 +1,25 @@
 #search-bar {
-	float:right;
+	padding: 13px;
+    left: 75%;
+    border-right: none;
+    position: absolute;
+	z-index: 99;
+	font-size:0.75rem;
+}
+.search-li {
+	background: #fff;
+    border-radius: 17px;
+    border: 1px solid #e6e6e6;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 170px;
+    height: 33px;
+    text-overflow: ellipsis;
 }
 #search-bar > input {
 	margin: 0;
-    width: 115px;
+    width: 170px;
     height: 33px;
     border-radius: 17px;
     border: 1px solid #e6e6e6;
