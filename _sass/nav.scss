@@ -91,8 +91,10 @@
 		float:left;
 		overflow:hidden;
 		position:absolute;
-		background-color: #fff;
-  		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		background-color: #495057;
+		  //box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		border-radius:5px;
+		color:#fff;
 		z-index: 1;
 		top:60px;
 		left:0px;
@@ -105,6 +107,9 @@
 		border-bottom:1px solid #ddd;
 		border-radius:5px;
 		font-weight:700;
+	}
+	.dropdown-content li:first-child {
+		border-top:1px solid #ddd;
 	}
 	.dropdown-content li a {
 		font-size:10px;
