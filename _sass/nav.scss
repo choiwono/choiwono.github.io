@@ -103,16 +103,8 @@
 		min-width:85px;
 		border-right:none;
 		border-bottom:1px solid #ddd;
-		position: absolute;
-		padding: 10px 0px;
-		border-radius: 5px;
-		background: #495057;
-		color: #fff;
-		text-align: center;
-		font-weight: 400;
-		opacity: 0;
-		pointer-events: none;
-		transition: all .5s ease-in-out;
+		border-radius:5px;
+		font-weight:700;
 	}
 	.dropdown-content li a {
 		font-size:10px;
