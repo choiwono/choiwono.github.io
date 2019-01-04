@@ -48,6 +48,8 @@ h3.title a {
 		width:30%;
 		display:inline-flex;
 		margin:10px 5px 5px 5px;
+		height:300px;
+
 	}
 	li {
 		padding: 10px 18px;
@@ -55,12 +57,18 @@ h3.title a {
 		text-decoration: none;
 		background: $white;
 		color: $color_shark;
+		white-space:nowrap;
+		overflow:hidden;
+		text-overflow:ellipsis;
 		a {
 			//@include font-rem(20);
 			text-decoration: none;
 			color: $color_shark;
 			font-weight: bolder;
 			font-size:1.1rem;
+			white-space:nowrap;
+			overflow:hidden;
+			text-overflow:ellipsis;
             &:hover {
                 color: $red;
             }
