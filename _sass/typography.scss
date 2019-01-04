@@ -45,7 +45,7 @@ h3.title a {
 		padding:5px;
 		box-shadow: 1px 1px 1px 1px #aaaaaa;
 		top:0px;
-		width:30%;
+		width:31%;
 		display:inline-flex;
 		margin:10px 5px 5px 5px;
 		height:300px;
@@ -66,9 +66,6 @@ h3.title a {
 			color: $color_shark;
 			font-weight: bolder;
 			font-size:1.1rem;
-			white-space:nowrap;
-			overflow:hidden;
-			text-overflow:ellipsis;
             &:hover {
                 color: $red;
             }
@@ -76,6 +73,9 @@ h3.title a {
 		p {
 			font-weight: lighter;
 			@include font-rem(16);
+			white-space:nowrap;
+			overflow:hidden;
+			text-overflow:ellipsis;
 		}
 	}
 }
