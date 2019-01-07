@@ -36,6 +36,15 @@ h3.title a {
 	color: $color_shark;
 	text-decoration: none;
 }
+.post-meta {
+	background: #FF746F;
+	content:"";
+	display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    float: right;
+}
 
 // post list
 .post-list {
