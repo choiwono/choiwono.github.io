@@ -17,6 +17,7 @@
 }
 #search-bar > input {
 	margin: 0;
+	outline:none;
     width: 170px;
     height: 33px;
     border-radius: 17px;
@@ -69,7 +70,7 @@
 	button:hover,
 	button.dl-active,
 	ul {
-		background: #aaa;
+		//background: #aaa;
 	}
 	button:after {
 		content: '';
@@ -153,7 +154,7 @@
 			@include font-rem(14);
 			line-height: 20px;
 			font-weight: 400;
-			//color: $white;
+			color:#fff;
 			outline: none;
 			text-decoration: none;
 		}
