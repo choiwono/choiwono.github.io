@@ -3,7 +3,7 @@ pre.highlight {
 }
 
 .highlight {
-	background-color: #49483e;
+	background-color: #353a3d;
 	font-family: $font2;
 	@include font-size(14);
 	color: #f8f8f2;
@@ -24,7 +24,7 @@ pre.highlight {
 	.p                 { color: #f8f8f2 }                            /* Punctuation                 */
 	.cm                { color: #75715e }                            /* Comment.Multiline           */
 	.cp                { color: #75715e }                            /* Comment.Preproc             */
-	.c1                { color: #75715e }                            /* Comment.Single              */
+	.c1                { color: #8bcf93 }                            /* Comment.Single              */
 	.cs                { color: #75715e }                            /* Comment.Special             */
 	.ge                { font-style: italic }                        /* Generic.Emph                */
 	.gs                { font-weight: bold }                         /* Generic.Strong              */
