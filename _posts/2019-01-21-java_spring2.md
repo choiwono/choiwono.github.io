@@ -48,23 +48,6 @@ tag:
 * ex) 각각의 프로젝트마다 xml 스키마가 따로 있다.
 * 각각의 스키마는 name space로 구분한다.
 
-```code
-
-<?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:c="http://www.springframework.org/schema/c"
-  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-
-    <bean id="bean1" class="soundsystem.MyBean"/>
-    <bean id="bean2" class="soundsystem.MyBean"/>
-</beans>
-
-```
-
-* 싱글턴 객체는 필드가없거나, 안전한 필드면 상관이 없다.
-* 스프링은 기본적으로 무조건 싱글턴으로 쓴다.
-
 ### xml 파일 작성전에 가장 중요한것
 
 1. 코드를 작성하기전에 클래스 다이어그램을 그린다.
@@ -72,6 +55,26 @@ tag:
 3. 어떤 인스턴스가 만들어질지, 각각의 인스턴스가 무엇을 가져야할지에 따른 구상도 끝나야함.
 4. 관계와 구현설계가 끝나면, xml에 기재한다.
 5. 아키텍쳐가 어느정도 정해져있다 ex) mvc 패턴
+
+```xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:c="http://www.springframework.org/schema/c" 
+
+    <bean id="bean1" class="soundsystem.MyBean"/>
+    <bean id="bean2" class="soundsystem.MyBean"/>
+</beans>
+
+```
+
+### 싱글턴 객체
+
+* 싱글턴 객체는 필드가없거나, 안전한 필드이어야만 한다.
+* 스프링은 기본적으로 무조건 싱글턴으로 쓴다.
+
+
 
 ### IOC 컨테이너 ( 스프링컨테이너 ) - INVERT OF CONTAINER (제어의 역전)
 
@@ -93,6 +96,6 @@ tag:
 
 #### 참고 URL
 
-https://limmmee.tistory.com/13 [심플하게 개발]
-http://wiki.gurubee.net/pages/viewpage.action?pageId=26740787
-https://js2prince.tistory.com/entry/Spring-IOC-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EB%9E%80
+* 참고링크 1 : https://limmmee.tistory.com/13
+* 참고링크 2 : http://wiki.gurubee.net/pages/viewpage.action?pageId=26740787
+* 참고링크 3 : https://js2prince.tistory.com/entry/Spring-IOC-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EB%9E%80
