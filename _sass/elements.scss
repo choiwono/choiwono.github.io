@@ -84,30 +84,26 @@
 
 // hr break
 hr {
-	border: 0;
-	height: 1px;
-	opacity: .8;
-    margin: 1em 0;
-	background-image: -webkit-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-	background-image: -moz-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-	background-image: -ms-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-	background-image: -o-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-	&.hr-line {
-		border: 0;
-		height: 1px;
-		opacity: .15;
-		margin: 1em 0;
-		background-image: -webkit-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-		background-image: -moz-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-		background-image: -ms-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-		background-image: -o-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
-	}
+  border: 0;
+  border-bottom:1px dashed #ccc;
+  background-image:#999;
+  }
+&.hr-line {
+  border: 0;
+  height: 1px;
+  opacity: .15;
+  margin: 1em 0;
+  background-image: -webkit-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
+  background-image: -moz-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
+  background-image: -ms-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
+  background-image: -o-linear-gradient(left, $color_gallery, $color_stack, $color_gallery);
 }
+
 
 // images and figures
 img {
     display: block;
-	max-width: 100%;
+	  max-width: 100%;
     width: auto;
     height: auto;
     vertical-align: middle;
