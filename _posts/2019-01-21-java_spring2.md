@@ -9,7 +9,7 @@ tag:
 - IOC Container
 - Bean LifeCycle
 - xml
-- comments: true
+comments: true
 ---
 
 ## 스프링 프레임워크

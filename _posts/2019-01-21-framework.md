@@ -7,6 +7,7 @@ java: true
 tag:
 - framework
 - library
+comments: true
 ---
 
 ### 프레임워크란?
