@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[프로그래머] 되기 위해서 준비해야할것들"
-date:   2019-02-07
+date:   2019-02-26
 excerpt: "spring, jpa, xml, java config"
 java: true
 tag:
