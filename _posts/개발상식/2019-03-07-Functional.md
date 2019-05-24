@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TIL 금일 공부
+title: 함수형프로그래밍란?
 date: 2019-03-07 11:46:32 +0900
 description:
 categories: 개발상식
