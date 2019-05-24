@@ -1,0 +1,109 @@
+#spring  setup and common configuration
+spring:
+  profiles:
+    active: local
+    
+#Redis pub/sub channel
+# pub채널은 웹소켓에서 생성된 주소를 프론트 엔드로 넘길 수 있도록 하기 위한 채널이다.
+# sub채널은 api server가 redis로 해당 채널로 주소를 생성하도록 하기 위한 채널이다.
+subscribe:
+  channel: 'create-address'
+
+publish:
+  channel: 'propagate-address'
+
+#mybatis setup
+mybatis:
+  mapper-locations: classpath*:mappers/**/*.xml
+  configuration:
+    call-setters-on-nulls: true
+  
+#company mark up
+company:
+  host:
+    name: 'http://www.doublechain.co.kr'
+    
+#schedule pool size
+schedule:
+  pool:
+    size: 5
+
+#specific comfirmations size
+block:
+  confirmations: 5
+
+---
+#spring profiles : LOCAL
+
+#spring and hikari setup
+spring:
+  profiles: local
+  datasource:
+    hikari:
+      cachePrepStmts: true
+      connectionTestQuery: SELECT SYSDATE FROM DUAL
+      maximumPoolSize: 4
+      minimumIdle: 7
+      prepStmtCacheSize: 250 
+      prepStmtCacheSqlLimit: 2048 
+      pool-name: address-server-local
+    url: jdbc:oracle:thin:@//192.168.0.170:1521/ORCL
+    username: kdex
+    password: kdex
+    driver-class-name: oracle.jdbc.OracleDriver
+    type: com.zaxxer.hikari.HikariDataSource
+  session: 
+    store-type: REDIS
+  redis:
+    host: 192.168.0.242
+    port: 6379
+    password: dc393939
+    
+#logging
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        web: DEBUG
+    com:
+      zaxxer:
+        hikari: DEBUG
+        
+#bitcoin node setup
+bitcoin:
+  host: 192.168.0.250
+  port: 18332
+  user: bitcoin-dc-test
+  password: test!393939
+ 
+#qtum node setup
+qtum:
+  host: 192.168.0.238
+  port: 18332
+  user: qtum-dc-test
+  password: test!393939
+  
+#ripple node setup
+# account, secret키는 리플 공식 홈 developer에서 생성한 값들
+xrp:
+  account: rUqLAiQomFhbqm6e6hgxSaipJtPic6wYpx
+  secret: sseaMNyaZmeYXmT9HPUFCAsZ1HsLz
+  host: 192.168.0.237
+  port: 5005
+  user: ''
+  password: ''
+
+#ethereumclassic node setup
+etc:
+  host: 192.168.0.240
+  port: 8545 
+  user: ''
+  password: test!393939
+  
+#ethereum node setup
+eth:
+  host: 192.168.0.239
+  port: 8545
+  user: ''
+  password: ''

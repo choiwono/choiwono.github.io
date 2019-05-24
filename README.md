@@ -1,7 +1,19 @@
-# 개인 공부 블로그  ver 1.1
+# Codinfox-Lanyon
+This is a jekyll template based on [Lanyon](https://github.com/poole/lanyon). See a live demo [here](http://codinfox.github.io).
 
-## 1. 1일 1 커밋, 공부내용 정리
+**If you like this project, PLEASE give it a star.**
+Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
-## 2. 댓글기능, 검색기능 추가
+All the configurations are inside either `_config.yml` or `_config.scss`. The options are fairly straightforward. 
 
-## 3. 현재 블로그 디자인 UI 변경중 ( 12.28 ~ )
+The theme supports: 
+
+1. Theme colors: you can choose your favorite theme color
+2. Changable sidebar locations
+3. Integration of FontAwesome, MathJax, Disqus and Google Analytics
+4. and numerous improvements over original Lanyon
+
+
+## License
+Open sourced under the [MIT license](LICENSE.md).
+
