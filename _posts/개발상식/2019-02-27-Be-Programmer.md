@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 함수형프로그래밍란?
+title: 좋은 개발자가 되기위한 방법
 date: 2019-02-27 11:46:32 +0900
 description:
 categories: 개발상식
