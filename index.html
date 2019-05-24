@@ -12,7 +12,7 @@ title: Home
     <h2>카테고리</h2>
     {% for tag in site.categories %}
     <!-- <a href="{{ site.baseurl }}{{ site.category_page }}#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a> -->
-    <a href="/blog/categories/{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+    <a href="/blog/categories/#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
     {% endfor %}
   </div>
   <hr/>
