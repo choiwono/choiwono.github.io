@@ -1,6 +1,6 @@
 ---
 layout: post
-title: StringBuffer, StringBuilder의 차이?
+title: StringBuffer, StringBuilder
 date: 2019-05-27 21:23:00 +0900
 description:
 categories: Java

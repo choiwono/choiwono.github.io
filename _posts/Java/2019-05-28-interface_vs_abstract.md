@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Interface와 abstract의 차이
+title: Interface, abstract의 차이
 date: 2019-05-28 22:00:00 +0900
 description:
 categories: Java
