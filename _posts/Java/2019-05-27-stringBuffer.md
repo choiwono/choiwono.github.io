@@ -4,7 +4,7 @@ title: StringBuffer, StringBuilder
 date: 2019-05-27 21:23:00 +0900
 description:
 categories: Java
-tags: [StringBuilder],[StringBuffer]
+tags: StringBuilder StringBuffer
 ---
 
 ## String vs StringBuffer, StringBuilder

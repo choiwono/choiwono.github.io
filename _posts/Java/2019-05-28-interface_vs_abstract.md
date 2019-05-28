@@ -4,7 +4,7 @@ title: Interface, abstract의 차이
 date: 2019-05-28 22:00:00 +0900
 description:
 categories: Java
-tags: [interface],[abstract]
+tags: interface abstract
 ---
 
 ## 인터페이스 vs 추상 클래스
