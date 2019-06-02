@@ -4,7 +4,7 @@ title: Collection Framework
 date: 2019-03-15 20:25:00 +0900
 description:
 categories: Java
-tags: java
+tags: [java],[CollectionFramework]
 ---
 
 ## 컬렉션 프레임워크란?
