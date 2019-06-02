@@ -112,8 +112,14 @@ tags: Spring java
 
 * List, Set, Map
 * 상속관계 
-  * Iterable<E> <- Collection<E> <- List<E>, Set<E>, Queue<E>
-  * Map<K,V>
+  * Collection<E>
+    * List
+      * ArrayList, Vector, LinkedList
+    * Set
+      * HashSet, TreeSet
+  
+  * Map
+    * HashMap, Hashtable,TreeMap,Properties
 
 <b>컬렉션 클래스</b>
 * 컬렉션 프레임워크에 속하는 인터페이스를 구현한 클래스를 컬렉션 클래스라고 합니다. 컬렉션 프레임워크의 모든 클래스는 List,Set,Map 인터페이스중 하나의 인터페이스를 구현하고 있습니다.
@@ -127,6 +133,17 @@ tags: Spring java
   * 타입변환을 제거한다. 비제네릭 코드는 불필요한 타입 변환을 하기 때문에 프로그램 성능에 악영향을 끼친다. 분명히 String 타입으로 저장했지만 요소의 값을 찾아올 때는 반드시 형변환을 거쳐서 가져와야 한다. 결국 제네릭 타입을 사용하면 타입변환을 할 필요가 없어서 프로그램 성능이 향상된다.
   
   * JDK 1.5 이전에는 대부분의 클래스나 메소드에서 인수나 반환값으로 Object를 사용했고, 이 경우에 Object를 다시 원하는 값으로 변경하는 작업이 필요했고 이때 오류가 발생할 가능성도 존재했습니다.
+
+  * JDK 1.7부터는 다이아몬드 연산자를 통해서 조금더 간단하게 작성할 수 있게 되었다.
+  
+  ```java
+
+    Product<Tv,String> product = new Product<Tv,String>();
+
+    // 1.7부터는 선언된 제네릭 타입을 유추해서 자동으로 설정해준다.
+    Product<Tv,String> product = new Product<>();
+    
+  ```
 
 ### 12) 캐시와 세션의 공통점과 차이점은?
 

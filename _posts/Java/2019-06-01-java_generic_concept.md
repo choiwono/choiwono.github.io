@@ -26,6 +26,11 @@ List list = new ArrayList<>();
 list.add("hello");
 String str = (String) list.get(0);
 
-
+// 제네릭 타입 사용시
+// 형변환을 할 필요가 없다
+List<String> list = new ArrayList<>();
+list.add("hello");
+String str = list.get(0); 
 
 ```
+
