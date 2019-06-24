@@ -47,10 +47,7 @@ tags: Spring java
 
 ### 4) 객체지향 프로그램의 특징은?
 
-* 클래스 + 인스턴스, 캡슐화, 은닉화, 상속, 다형성
-
-  * 클래스 : 필요한 데이터를 추상화시켜, 변수와 메서드로 정의한것
-  * 인스턴스 : 클래스에서 정의한 내용을 바탕으로 실제 메모리에 할당된 것
+* 캡슐화, 은닉화, 상속, 다형성
 
   * 캡슐화 : 코드를 재수정없이 재활용하는 것 (관련된 기능과 특성을 한곳에 모아서 분류해서 사용)
   * 은닉화 : 메서드를 통해서만 접근가능, 데이터의 안정성을 보장하고 잘못된 값이 넘어오면 사전에 필터링이 가능하다
@@ -262,6 +259,77 @@ tags: Spring java
   * 객체지향 프로그래밍을 할때, 하나의 구체적인 인터페이스보다는 여러개로 분리해서 만드는 편이 좋다.
   * 하나로 만들경우, 변경이나 확장을 할 경우 어려워질 수 있음
 
-<b>[더 자세한 내용](https://choiwono.github.io/java/2019/03/15/collection_framework/)</b>
+<b>[더 자세한 내용](https://choiwono.github.io/java/2019/06/23/solid/)</b>
 
 ### 16) JVM 구조
+
+<b>[내용](https://choiwono.github.io/java/2019/05/05/jvm/)</b>
+
+### 17) synchronized란? 사용하는 방법은?
+
+* 자바에서 말하는 동기화란, 데이터를 thread-safe하게 만드는 방법을 말한다
+* 즉, 여러개의 스레드가 하나의 데이터에 접근할 때 데이터의 안정성이 보장이 되지 않으므로 하나의 스레드가 데이터에 접근하고 있을 경우 다른 스레드는 접근을 하지 못하게 막는 것을 이야기한다.
+
+* 적용방법
+
+```java
+// 두 코드는 같은 코드입니다.
+
+public synchronized void method(){
+    // 처리 코드
+}
+
+public void method(){
+    synchronized(obj){
+        // 처리
+    }
+}
+
+```
+
+<b>[더 자세한 내용](https://choiwono.github.io/java/2019/06/23/synchronized/)</b>
+
+### 18) String vs StringBuffer, StringBuilder
+
+* String과 다르게 StringBuffer 혹은 StringBuilder는 내부에 buffer라는 작은 임시메모리 공간을 가지고 있고, 문자열을 수정할 경우에 내부 버퍼에서 수정, 삭제가 이루어진다. String 보다 메모리 공간 사용이 효율적이다.
+  
+* StringBuilder = 싱글스레드 지원, StringBuffer = 멀티스레드 지원
+
+<b>[더 자세한 내용](https://choiwono.github.io/java/2019/05/27/stringBuffer/)</b>
+
+### 19) DI란?
+
+* DI는 프레임워크가 설정 정보를 바탕으로 객체의 의존성이 주입되는 설계 패턴이다. 
+* Spring Framework의 핵심 컴포넌트 - DI Container 라고도 부른다
+
+<b>[더 자세한 내용](https://gmlwjd9405.github.io/2018/11/09/dependency-injection.html)</b>
+
+### 20) AOP란?
+
+* 공통 기능을 모듈로 분리해서, 핵심 비즈니스 로직 사이에 영향을 끼치지 않고 끼워넣는 방법
+* 관점지향적 프로그래밍이라고도 한다 Ex) 트랜잭션, Logging 처리, 예외 처리
+
+<b>[더 자세한 내용](https://docs.google.com/document/d/1xjXadX6i_7l4xvaWDWzlAl9iec32ntTR_x_S5ikDaks/edit)</b>
+
+### 21) ORM이란?
+
+* 객체지향 프로그래밍과 관계형 데이터 베이스간의 모델 불일치를 해결 하기 위해 모델 - 테이블의 관계를 설정해주는 것
+* Ex) JPA, Hibernate
+
+<b>[더 자세한 내용](https://choiwono.github.io/spring/2019/06/12/ORM/)</b>
+
+### 22) Spring 과 Spring Boot의 차이
+
+* 스프링의 복잡한 설정을 간편하게 사용하기 위해 나왔다 -> 개발 생산성을 높이기 위해서
+* 스프링에서 해줘야 하는 복잡한 설정 등을 자동 혹은 간편하게 설정 할 수 있다
+* 부트의 장점 3가지
+  * 설정의 표준 - 자동화
+  * 배포가 용이, 내장 Tomcat
+  * 의존성 관리가 편리함
+
+<b>[더 자세한 내용](https://choiwono.github.io/java/2019/06/16/spring_boot/)</b>
+
+### 23) GC는 어떻게 작동할까?
+
+* GC는 가비지 컬렉션을 뜻한다. 
+* GC는 JVM 위에서 메모리 주소값을 잃은 인스턴스의 메모리를 해제해준다.
