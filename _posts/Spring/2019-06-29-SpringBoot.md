@@ -21,6 +21,9 @@ tags: SpringBoot Spring
   * 효율적으로 동작하는 고성능 웹 어플리케이션 개발 가능
   * 서비스간 호출이 많은 MSA에 적합하다. 
 * AutoConfigration을 제공, 기존에는 내장 톰캣만 지원 -> Netty 등 내장 서버 구성 지원을 해준다
+* @WebFluxTest을 통해서 테스트도 가능하다.
+* 서드파티 라이브러리가 도입되면서 최소버전등이 올라갔음
+
 
 #### HTTP/2 지원
 
@@ -31,7 +34,6 @@ tags: SpringBoot Spring
   * 요청을 HTTP 파이프라인으로 처리
   * TCP 연결 하나로 여러 요청을 다중화 처리
   * 이런 특징으로 인해서 네트워크 지연시간을 줄이고, 웹 브라우저 렌더링 속도를 향상시킵니다.
-
 
 #### Configuration Properties
 
@@ -50,10 +52,12 @@ tags: SpringBoot Spring
 
 * 스프링 프레임워크 5.0기반으로 작동한다. 스프링 프레임워크 리엑티브로 인해 많은 변경점이 생겼다.
 
-#### Json starter
-* 새로운 spring-boot-starter-json가 추가 되었다. jackson-databind 뿐만아니라 java8에서 유용하게 사용할 수 있는 jackson-datatype-jdk8와 jackson-datatype-jsr310, jackson-module-parameter-names도 지원한다.
+#### Starter 및 Test 지원 
 
+* 새로운 spring-boot-starter-json가 추가 되었다. jackson-databind 뿐만아니라 java8에서 유용하게 사용할 수 있는 jackson-datatype-jdk8와 Thymeleaf starter 등을 지원한다.
 
-* 출처
+* @DataRedisTest를 통해서 간단하게 Redis 테스트 가능
+
+#### 출처
   * https://brunch.co.kr/@springboot/55
   * http://wonwoo.ml/index.php/post/1769
