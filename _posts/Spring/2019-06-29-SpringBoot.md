@@ -9,9 +9,11 @@ tags: SpringBoot Spring
 
 ## 스프링부트 2.0의 특징
 
+스프링부트 2.1.5을 주로 사용했는데, 특징이나 그전 버전과의 차이점을 제대로 알지 못해서 블로그에 정리하기 위하여 글을 썻다
+
 #### 자바 8이상 버전부터 가능
 
-* 최소 자바 8 버전이상부터 지원, 그전 버전은 jdk를 업그레이드 하지 않는 이상 사용이 불가능하다
+* 최소 java 8+ 부터 지원, 그전 버전은 jdk를 업그레이드 하지 않는 이상 사용이 불가능하다. 제발 그전 버전은 사용하지 말자
 
 #### Spring WebFlux 도입
 
@@ -24,6 +26,10 @@ tags: SpringBoot Spring
 * @WebFluxTest을 통해서 테스트도 가능하다.
 * 서드파티 라이브러리가 도입되면서 최소버전등이 올라갔음
 
+#### Spring Loaded -> Spring devtools
+
+* 그전 Spring Loaded가 지원을 안한다고 한다. 대신 devtools를 지원하는데, 이 라이브러리는 프로그래머가 어플리케이션 개발을 좀 더 편하게 할 수 있도록 도와준다. 
+  * 캐싱기능 비활성화, 자동 새로고침 처리 등등의 기능을 지원해준다 
 
 #### HTTP/2 지원
 
@@ -57,6 +63,14 @@ tags: SpringBoot Spring
 * 새로운 spring-boot-starter-json가 추가 되었다. jackson-databind 뿐만아니라 java8에서 유용하게 사용할 수 있는 jackson-datatype-jdk8와 Thymeleaf starter 등을 지원한다.
 
 * @DataRedisTest를 통해서 간단하게 Redis 테스트 가능
+
+#### Gradle 플러그인 개선
+
+* Spring boot의 Gradle plugin 개선
+
+#### Quartz 스케쥴러 전용 starter 지원
+
+* 쿼츠는 자바 어플리케이션에 통합할 수 있는 오픈소스 스케쥴링 라이브러리라고 한다. Database 설정을 안할 경우 인메모리 방식으로 작동한다. 결국 어플리케이션을 재시작할 경우 휘발성으로 데이터는 사라진다.
 
 #### 출처
   * https://brunch.co.kr/@springboot/55
