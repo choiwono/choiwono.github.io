@@ -265,6 +265,10 @@ interface 변수 = new interface() {
 * URI는 자원을 표현하는데에 집중하고 행위에 대한 정의는 HTTP METHOD를 통해 하는 것이 REST한 API 설계하는 중심 규칙입니다.
 * 주요 메소드는 POST, GET, DELETE, PUT이 있습니다.
 
+* http란?
+  * hyper text transfer protocol, 인터넷에서 데이터를 교환하기 위한 통신규칙
+* 참고
+  * https://blog.hjf.pe.kr/462
 
 ### 14) Java 디자인 패턴
 
